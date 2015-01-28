@@ -1,13 +1,13 @@
-Simple Lazy Load
+ED Lazy Load
 =========
 jQuery plugin used to pull items in to the DOM as they scroll in to view - used to keep the initial page size down
 
 ###How to use
 
-Include Simple Lazy Load
+Include ED Lazy Load
 
 ```html
-<script src="js/simpleLazyLoad.min.js"></script>
+<script src="js/edLazyLoad.min.js"></script>
 ```
 
 ###Create your items
@@ -27,7 +27,7 @@ Include Simple Lazy Load
 ```html
 <script>
 $(function(){
-	$('.container .item img').simpleLazyLoad();
+	$('.container .item img').edLazyLoad();
 });
 </script>
 ```
