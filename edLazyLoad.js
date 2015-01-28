@@ -1,6 +1,6 @@
 /* jshint browser: true */
 /* globals $ */
-$.fn.simpleLazyLoad = function(options){
+$.fn.edLazyLoad = function(options){
 	'use strict';
 	
 	var settings = $.extend({
